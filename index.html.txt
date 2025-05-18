@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header id="navbar">
+    <nav class="container">
+      <div class="logo">SkillCraft</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+ <section id="home" class="hero">
+  <div class="home-content">
+    <h1>Welcome to SkillCraft Technology</h1>
+    <p>Build something amazing with us!</p>
+
+    <div class="home-links">
+      <a href="#features">Explore Features</a>
+      <a href="#about">Know About Us</a>
+      <a href="#contact">Get in Touch</a>
+    </div>
+  </div>
+</section>
+
+ 
+    <section id="features" class="section">
+  <h2>Features</h2>
+  <ul>
+    <li>✅ Responsive design</li>
+    <li>✨ Interactive navigation bar</li>
+    <li>⚡ Fast performance</li>
+  </ul>
+</section>
+
+
+
+<section id="about" class="section">
+  <h2>About Us</h2>
+  <p>We are <strong>SkillCraft Technology</strong>, a passionate team dedicated to crafting interactive and responsive web experiences. Our goal is to empower learners and developers through clean code and creative design.</p>
+
+  <div class="about-features">
+    <div class="about-box">
+      <h3>🎯 Our Mission</h3>
+      <p>To deliver high-quality tech solutions and learning platforms.</p>
+    </div>
+    <div class="about-box">
+      <h3>🚀 Our Vision</h3>
+      <p>To inspire innovation and growth through technology.</p>
+    </div>
+  </div>
+</section>
+
+
+  <section id="contact" class="section">
+  <h2>Contact Us</h2>
+  <p>We’d love to hear from you! Drop a message using the form below 📩</p>
+
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
